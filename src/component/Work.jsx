@@ -21,11 +21,12 @@ function Work() {
         },
         {
             image: Work3,
-            title: "Full Stack Application",
+            title: "javascript Stack Application",
             description: ".",
             github: "https://github.com/username/project3",
             live: "https://live-link3.com"
-        }
+        },
+       
     ];
 
     return (

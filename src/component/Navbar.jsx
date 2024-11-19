@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white z-50'>
             <div>
-                <h1 className='font-bold text-3xl px-4 text-pink-600'>JALAL</h1>
+                <h1 className='font-bold text-3xl px-4 text-white'>JALAL</h1>
             </div>
 
             {/* Menu for larger screens */}
