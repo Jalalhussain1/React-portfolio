@@ -1,8 +1,8 @@
 import React from 'react';
 import Work1 from '../assets/work1.png';
-import Work2 from '../assets/Work2.png';
-import Work3 from '../assets/Work3.png';
-import Work4 from '../assets/Work4.png';
+import Work2 from '../assets/work2.png';
+import Work3 from '../assets/work3.png';
+import Work4 from '../assets/work4.png';
 
 function Work() {
     const projects = [
