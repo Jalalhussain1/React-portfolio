@@ -4,7 +4,7 @@ import CSS from '../assets/CSS.png';
 import JavaScript from '../assets/Javascript.png';
 import GitHub from '../assets/GitHub.png';
 import Node from '../assets/Node.png';
-import Tailwind from '../assets/Tailwind.png';
+import Tailwind from '../assets/TailWind.png';
 import Postgres from '../assets/Postgres.png';
 import ReactIcon from '../assets/React.png';
 
