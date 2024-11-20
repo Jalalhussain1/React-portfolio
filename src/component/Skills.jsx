@@ -2,7 +2,7 @@ import React from 'react';
 import HTML from '../assets/HTML.png';
 import CSS from '../assets/CSS.png';
 import JavaScript from '../assets/Javascript.png';
-import GitHub from '../assets/Github.png';
+import GitHub from '../assets/GitHub.png';
 import Node from '../assets/Node.png';
 import Tailwind from '../assets/Tailwind.png';
 import Postgres from '../assets/Postgres.png';
