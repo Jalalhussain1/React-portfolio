@@ -1,5 +1,5 @@
 import React from 'react';
-import Work1 from '../assets/Work1.png';
+import Work1 from '../assets/work1.png';
 import Work2 from '../assets/Work2.png';
 import Work3 from '../assets/Work3.png';
 import Work4 from '../assets/Work4.png';
@@ -16,7 +16,6 @@ function Work() {
         {
             image: Work2,
             title: "Bootstrap Application",
-            
             github: "https://github.com/Jalalhussain1/bootstrap",
             live: "https://jalalhussain1.github.io/bootstrap/"
         },
