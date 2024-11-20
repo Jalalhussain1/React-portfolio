@@ -1,12 +1,12 @@
 import React from 'react';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import GitHub from '../assets/github.png';
-import Node from '../assets/node.png';
-import Tailwind from '../assets/tailwind.png';
-import Postgres from '../assets/postgres.png';
-import ReactIcon from '../assets/react.png';
+import HTML from '../assets/HTML.png';
+import CSS from '../assets/CSS.png';
+import JavaScript from '../assets/Javascript.png';
+import GitHub from '../assets/Github.png';
+import Node from '../assets/Node.png';
+import Tailwind from '../assets/Tailwind.png';
+import Postgres from '../assets/Postgres.png';
+import ReactIcon from '../assets/React.png';
 
 function Skills() {
     return (
