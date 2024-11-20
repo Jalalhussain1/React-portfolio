@@ -31,8 +31,8 @@ function Work() {
             image: Work4,
             title: "javascript Stack Application",
             description: ".",
-            github: "https://github.com/username/project3",
-            live: "https://live-link3.com"
+            github: "https://github.com/Jalalhussain1/Api-Calling.git",
+            live: "https://jalalhussain1.github.io/Api-Calling/"
         },
     ];
 
