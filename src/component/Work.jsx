@@ -2,6 +2,7 @@ import React from 'react';
 import Work1 from '../assets/Work1.png';
 import Work2 from '../assets/Work2.png';
 import Work3 from '../assets/Work3.png';
+import Work4 from '../assets/Work4.png';
 
 function Work() {
     const projects = [
@@ -26,7 +27,13 @@ function Work() {
             github: "https://github.com/username/project3",
             live: "https://live-link3.com"
         },
-       
+        {
+            image: Work4,
+            title: "javascript Stack Application",
+            description: ".",
+            github: "https://github.com/username/project3",
+            live: "https://live-link3.com"
+        },
     ];
 
     return (
