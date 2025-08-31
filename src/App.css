@@ -4,6 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+body{
+  background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
 
 .logo {
   height: 6em;
