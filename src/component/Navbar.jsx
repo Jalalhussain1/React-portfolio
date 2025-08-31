@@ -29,7 +29,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 z-50 transition-all backdrop-blur-sm duration-300 ${
+        <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 z-[9999] transition-all backdrop-blur-sm duration-300 ${
             scrolled 
                 ? 'bg-black/20 shadow-2xl border-b border-[#0ef]/20' 
                 : 'bg-transparent'
@@ -117,7 +117,7 @@ function Navbar() {
             </div>
 
             {/* Mobile Menu */}
-            <div className={`md:hidden fixed top-0 left-0 w-full h-screen bg-black/30 mt-20 transition-transform duration-300 ${
+            <div className={`md:hidden fixed top-0 left-0 w-full h-screen bg-black/30 mt-20 transition-transform duration-300 z-[9998] ${
                 nav ? 'translate-x-0' : 'translate-x-full'
             }`}>
                 <div className='flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center h-full  space-y-8'>
