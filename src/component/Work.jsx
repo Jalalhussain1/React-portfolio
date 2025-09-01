@@ -46,7 +46,7 @@ function Work() {
     ];
 
     return (
-        <div id="work" className='w-full min-h-screen text-gray-300 pt-[80px] relative overflow-hidden'>
+        <div id="work" className='w-full min-h-screen text-white pt-[80px] relative overflow-hidden'>
             {/* Background Pattern */}
             <div className='absolute inset-0 opacity-5'>
                 <div className='absolute top-20 right-20 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse'></div>
@@ -60,7 +60,7 @@ function Work() {
                         Featured <span className='text-[#0ef]'>Projects</span>
                     </h2>
                     <div className='w-20 sm:w-24 h-1 bg-[#0ef] mx-auto rounded-full mb-4 sm:mb-6'></div>
-                    <p className='text-base sm:text-xl text-gray-400 max-w-2xl mx-auto px-4'>
+                    <p className='text-base sm:text-xl white max-w-2xl mx-auto px-4'>
                         A showcase of my recent work, demonstrating my skills in full-stack development and problem-solving
                     </p>
                 </div>
@@ -96,7 +96,7 @@ function Work() {
                                     {project.title}
                                 </h3>
                                 
-                                <p className='text-gray-400 mb-3 sm:mb-4 leading-relaxed text-sm sm:text-base'>
+                                <p className='text-white mb-3 sm:mb-4 leading-relaxed text-sm sm:text-base'>
                                     {project.description}
                                 </p>
 
@@ -110,7 +110,7 @@ function Work() {
                                         {project.technologies.map((tech, techIndex) => (
                                             <span 
                                                 key={techIndex} 
-                                                className='px-2 sm:px-3 py-1 bg-transparent text-gray-300 text-xs sm:text-sm rounded-full border border-[#0ef]/30 hover:border-[#0ef] hover:bg-[#0ef]/10 transition-colors duration-300 shadow-[0_0_10px_rgba(0,238,255,0.2)]'
+                                                className='px-2 sm:px-3 py-1 bg-transparent text-white text-xs sm:text-sm rounded-full border border-[#0ef]/30 hover:border-[#0ef] hover:bg-[#0ef]/10 transition-colors duration-300 shadow-[0_0_10px_rgba(0,238,255,0.2)]'
                                             >
                                                 {tech}
                                             </span>
@@ -148,7 +148,7 @@ function Work() {
                 <div className='text-center mt-12 sm:mt-16 animate-fade-in-up'>
                     <div className='bg-transparent rounded-xl p-6 sm:p-8 border border-[#0ef]/30 shadow-[0_0_20px_rgba(0,238,255,0.3)]'>
                         <h3 className='text-xl sm:text-2xl font-bold text-white mb-4'>Interested in Working Together?</h3>
-                        <p className='text-gray-400 mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base'>
+                        <p className='text-white mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base'>
                             I'm always open to discussing new opportunities and exciting projects. 
                             Let's create something amazing together!
                         </p>

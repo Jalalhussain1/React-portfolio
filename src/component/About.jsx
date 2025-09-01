@@ -18,7 +18,7 @@ function About() {
                         About <span className='text-[#0ef]'>Me</span>
                     </h2>
                     <div className='w-20 sm:w-24 h-1 bg-[#0ef] mx-auto rounded-full'></div>
-                    <p className='text-base sm:text-xl text-gray-400 mt-4 sm:mt-6 max-w-2xl mx-auto px-4'>
+                    <p className='text-base sm:text-xl text-white mt-4 sm:mt-6 max-w-2xl mx-auto px-4'>
                         Passionate about creating innovative solutions and turning ideas into reality through code
                     </p>
                 </div>
@@ -31,12 +31,12 @@ function About() {
                             <h3 className='text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6'>
                                 Who I Am
                             </h3>
-                            <p className='text-base sm:text-lg leading-relaxed text-gray-300'>
+                            <p className='text-base sm:text-lg leading-relaxed text-white'>
                                 I'm a BS Computer Science graduate with 1 year of hands-on experience in full-stack web development. 
                                 My journey in technology began with a curiosity for how things work, which evolved into a passion 
                                 for building digital solutions that make a difference.
                             </p>
-                            <p className='text-base sm:text-lg leading-relaxed text-gray-300'>
+                            <p className='text-base sm:text-lg leading-relaxed text-white'>
                                 I specialize in creating seamless user experiences by combining modern frontend technologies 
                                 with robust backend solutions. My approach focuses on writing clean, maintainable code and 
                                 staying current with industry best practices.
@@ -50,7 +50,7 @@ function About() {
                                     <FaGraduationCap className='text-[#0ef] text-xl sm:text-2xl' />
                                     <h4 className='text-lg sm:text-xl font-semibold text-white'>Education</h4>
                                 </div>
-                                <p className='text-gray-400 text-sm sm:text-base'>BS Computer Science</p>
+                                <p className='text-white text-sm sm:text-base'>BS Computer Science</p>
                             </div>
                             
                             <div className='bg-transparent rounded-lg p-4 sm:p-6 hover-lift border border-[#0ef]/30 hover:border-[#0ef] transition-all duration-300 shadow-[0_0_20px_rgba(0,238,255,0.3)] hover:shadow-[0_0_30px_rgba(0,238,255,0.5)]'>
@@ -58,7 +58,7 @@ function About() {
                                     <FaCode className='text-[#0ef] text-xl sm:text-2xl' />
                                     <h4 className='text-lg sm:text-xl font-semibold text-white'>Experience</h4>
                                 </div>
-                                <p className='text-gray-400 text-sm sm:text-base'>1+ Year Full-Stack Development</p>
+                                <p className='text-white text-sm sm:text-base'>1+ Year Full-Stack Development</p>
                             </div>
                             
                             <div className='bg-transparent rounded-lg p-4 sm:p-6 hover-lift border border-[#0ef]/30 hover:border-[#0ef] transition-all duration-300 shadow-[0_0_20px_rgba(0,238,255,0.3)] hover:shadow-[0_0_30px_rgba(0,238,255,0.5)]'>
@@ -66,7 +66,7 @@ function About() {
                                     <FaUsers className='text-[#0ef] text-xl sm:text-2xl' />
                                     <h4 className='text-lg sm:text-xl font-semibold text-white'>Collaboration</h4>
                                 </div>
-                                <p className='text-gray-400 text-sm sm:text-base'>Team Player & Agile Methodologies</p>
+                                <p className='text-white text-sm sm:text-base'>Team Player & Agile Methodologies</p>
                             </div>
                             
                             <div className='bg-transparent rounded-lg p-4 sm:p-6 hover-lift border border-[#0ef]/30 hover:border-[#0ef] transition-all duration-300 shadow-[0_0_20px_rgba(0,238,255,0.3)] hover:shadow-[0_0_30px_rgba(0,238,255,0.5)]'>
@@ -74,7 +74,7 @@ function About() {
                                     <FaLightbulb className='text-[#0ef] text-xl sm:text-2xl' />
                                     <h4 className='text-lg sm:text-xl font-semibold text-white'>Problem Solving</h4>
                                 </div>
-                                <p className='text-gray-400 text-sm sm:text-base'>Analytical & Creative Solutions</p>
+                                <p className='text-white text-sm sm:text-base'>Analytical & Creative Solutions</p>
                             </div>
                         </div>
                     </div>
@@ -91,25 +91,25 @@ function About() {
                                 <h4 className='text-lg sm:text-xl font-semibold text-[#0ef]'>Frontend Development</h4>
                                 <div className='space-y-2 sm:space-y-3'>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>HTML/CSS</span>
+                                        <span className='text-white text-sm sm:text-base'>HTML/CSS</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '90%'}}></div>
                                         </div>
                                     </div>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>JavaScript</span>
+                                        <span className='text-white text-sm sm:text-base'>JavaScript</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '85%'}}></div>
                                         </div>
                                     </div>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>React</span>
+                                        <span className='text-white text-sm sm:text-base'>React</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '80%'}}></div>
                                         </div>
                                     </div>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>TypeScript</span>
+                                        <span className='text-white text-sm sm:text-base'>TypeScript</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '75%'}}></div>
                                         </div>
@@ -122,19 +122,19 @@ function About() {
                                 <h4 className='text-lg sm:text-xl font-semibold text-[#0ef]'>Backend Development</h4>
                                 <div className='space-y-2 sm:space-y-3'>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>Node.js</span>
+                                        <span className='text-white text-sm sm:text-base'>Node.js</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '80%'}}></div>
                                         </div>
                                     </div>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>Express.js</span>
+                                        <span className='text-white text-sm sm:text-base'>Express.js</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '75%'}}></div>
                                         </div>
                                     </div>
                                     <div className='flex justify-between items-center'>
-                                        <span className='text-gray-300 text-sm sm:text-base'>PostgreSQL</span>
+                                        <span className='text-white text-sm sm:text-base'>PostgreSQL</span>
                                         <div className='w-24 sm:w-32 bg-gray-700 rounded-full h-2'>
                                             <div className='bg-[#0ef] h-2 rounded-full' style={{width: '70%'}}></div>
                                         </div>
@@ -149,19 +149,19 @@ function About() {
                             <div className='space-y-2 sm:space-y-3'>
                                 <div className='flex items-center space-x-3'>
                                     <div className='w-2 h-2 bg-[#0ef] rounded-full flex-shrink-0'></div>
-                                    <span className='text-gray-300 text-sm sm:text-base'>Continuous learning and staying updated with latest technologies</span>
+                                    <span className='text-white text-sm sm:text-base'>Continuous learning and staying updated with latest technologies</span>
                                 </div>
                                 <div className='flex items-center space-x-3'>
                                     <div className='w-2 h-2 bg-[#0ef] rounded-full flex-shrink-0'></div>
-                                    <span className='text-gray-300 text-sm sm:text-base'>Writing clean, maintainable, and scalable code</span>
+                                    <span className='text-white text-sm sm:text-base'>Writing clean, maintainable, and scalable code</span>
                                 </div>
                                 <div className='flex items-center space-x-3'>
                                     <div className='w-2 h-2 bg-[#0ef] rounded-full flex-shrink-0'></div>
-                                    <span className='text-gray-300 text-sm sm:text-base'>Collaborating effectively in team environments</span>
+                                    <span className='text-white text-sm sm:text-base'>Collaborating effectively in team environments</span>
                                 </div>
                                 <div className='flex items-center space-x-3'>
                                     <div className='w-2 h-2 bg-[#0ef] rounded-full flex-shrink-0'></div>
-                                    <span className='text-gray-300 text-sm sm:text-base'>Solving complex problems with innovative solutions</span>
+                                    <span className='text-white text-sm sm:text-base'>Solving complex problems with innovative solutions</span>
                                 </div>
                             </div>
                         </div>

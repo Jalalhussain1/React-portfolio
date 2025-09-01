@@ -55,7 +55,7 @@ function Skills() {
                         Technical <span className='text-[#0ef]'>Skills</span>
                     </h2>
                     <div className='w-20 sm:w-24 h-1 bg-[#0ef] mx-auto rounded-full mb-4 sm:mb-6'></div>
-                    <p className='text-base sm:text-xl text-gray-400 max-w-2xl mx-auto px-4'>
+                    <p className='text-base sm:text-xl text-white max-w-2xl mx-auto px-4'>
                         A comprehensive toolkit of technologies and frameworks I use to bring ideas to life
                     </p>
                 </div>
@@ -115,7 +115,7 @@ function Skills() {
                             ].map((skill, index) => (
                                 <div key={index} className='flex items-center space-x-2 p-2 sm:p-3 bg-transparent rounded-lg hover:bg-[#0ef]/10 transition-colors duration-300 border border-[#0ef]/20 hover:border-[#0ef]/50'>
                                     <div className='w-2 h-2 bg-[#0ef] rounded-full'></div>
-                                    <span className='text-gray-300 text-sm sm:text-base'>{skill}</span>
+                                    <span className='text-white text-sm sm:text-base'>{skill}</span>
                                 </div>
                             ))}
                         </div>
@@ -126,12 +126,12 @@ function Skills() {
                 <div className='mt-12 sm:mt-16 text-center animate-fade-in-up'>
                     <div className='bg-transparent rounded-xl p-6 sm:p-8 border border-[#0ef]/30 shadow-[0_0_20px_rgba(0,238,255,0.3)]'>
                         <h3 className='text-xl sm:text-2xl font-bold text-white mb-4'>Always Learning</h3>
-                        <p className='text-gray-400 mb-4 sm:mb-6 text-sm sm:text-base'>
+                        <p className='text-white mb-4 sm:mb-6 text-sm sm:text-base'>
                             I'm constantly expanding my skill set and staying updated with the latest technologies and best practices.
                         </p>
                         <div className='flex flex-wrap justify-center gap-3 sm:gap-4'>
                             {["AWS", "Docker", "Next.js", "GraphQL", "MongoDB"].map((tech, index) => (
-                                <span key={index} className='px-3 sm:px-4 py-2 bg-transparent rounded-full text-gray-300 border border-[#0ef]/30 hover:border-[#0ef] hover:bg-[#0ef]/10 transition-colors duration-300 text-sm sm:text-base shadow-[0_0_10px_rgba(0,238,255,0.2)]'>
+                                <span key={index} className='px-3 sm:px-4 py-2 bg-transparent rounded-full text-white border border-[#0ef]/30 hover:border-[#0ef] hover:bg-[#0ef]/10 transition-colors duration-300 text-sm sm:text-base shadow-[0_0_10px_rgba(0,238,255,0.2)]'>
                                     {tech}
                                 </span>
                             ))}

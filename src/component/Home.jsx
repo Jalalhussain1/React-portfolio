@@ -22,7 +22,7 @@ function Home() {
                             <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold text-gray-300'>
                                 Full-Stack Developer
                             </h2>
-                            <p className='text-base sm:text-lg md:text-xl text-gray-400 max-w-lg mx-auto xl:mx-0 leading-relaxed'>
+                            <p className='text-base sm:text-lg md:text-xl text-white max-w-lg mx-auto xl:mx-0 leading-relaxed'>
                                 Passionate about creating innovative web solutions and turning ideas into reality through clean, efficient code.
                             </p>
                         </div>
@@ -49,15 +49,15 @@ function Home() {
                         <div className='grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 pt-6 sm:pt-8 md:pt-10'>
                             <div className='text-center'>
                                 <div className='text-2xl sm:text-3xl md:text-4xl font-bold text-[#0ef]'>1+</div>
-                                <div className='text-sm sm:text-base md:text-lg text-gray-400'>Years Experience</div>
+                                <div className='text-sm sm:text-base md:text-lg text-white'>Years Experience</div>
                             </div>
                             <div className='text-center'>
                                 <div className='text-2xl sm:text-3xl md:text-4xl font-bold text-[#0ef]'>10+</div>
-                                <div className='text-sm sm:text-base md:text-lg text-gray-400'>Projects Completed</div>
+                                <div className='text-sm sm:text-base md:text-lg text-white'>Projects Completed</div>
                             </div>
                             <div className='text-center'>
                                 <div className='text-2xl sm:text-3xl md:text-4xl font-bold text-[#0ef]'>100%</div>
-                                <div className='text-sm sm:text-base md:text-lg text-gray-400'>Client Satisfaction</div>
+                                <div className='text-sm sm:text-base md:text-lg text-white'>Client Satisfaction</div>
                             </div>
                         </div>
 
